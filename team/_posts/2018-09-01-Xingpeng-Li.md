@@ -16,7 +16,7 @@ facebook:
 alumni: 
 ---
 
-I am an [Assistant Professor](https://www.ece.uh.edu/faculty/li) with the [Department of Electrical and Computer Engineering](https://www.ece.uh.edu/)  at the [University of Houston](https://www.uh.edu/), Houston, TX, USA.
+Dr. Xingpeng Li is an [Assistant Professor](https://www.ece.uh.edu/faculty/li) with the [Department of Electrical and Computer Engineering](https://www.ece.uh.edu/)  at the [University of Houston](https://www.uh.edu/), Houston, TX, USA.
 
 # Education
 

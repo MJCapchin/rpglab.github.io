@@ -17,4 +17,4 @@ facebook:
 alumni: true
 ---
 
-Vasudharini started her research in the RPG lab in June 2020. She mainly worked on machine learning based electricity price prediction. She graduated in May 2021.
+Vasudharini Sridharan started her research in the RPG lab in June 2020. She mainly worked on machine learning based electricity price prediction. She graduated in May 2021.
