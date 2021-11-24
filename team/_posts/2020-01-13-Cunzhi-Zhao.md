@@ -2,6 +2,7 @@
 layout: member
 title: Cunzhi Zhao
 position: PhD Student
+time: 2020.01 - present
 email: 
 image: /images/team/male.jpg
 cv: 

@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jesus Silva-Rodriguez
-position: (i) Undergraduate, (ii) PhD Student
+position: (ii) PhD Student (i) B.S.
 time: 2020.08 to present
 email: 
 image: /images/team/male.jpg

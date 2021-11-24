@@ -13,7 +13,7 @@
   <link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="/images/favicon.png"/>
+	<link rel="shortcut icon" href="/images/Logo_RPGLab.png"/>
 
 	<!-- Typekit -->
 	<script>
@@ -53,7 +53,7 @@
 			<div class="container">
 				{% if page.categories.first != 'home' %}
 				<a class="navbar-brand" href="/">
-					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/Logo_RPGLab.png">
 					RPG Lab
 				</a>
 				{% else %}
@@ -65,33 +65,33 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav nav-pills ml-auto">
-						{% if page.categories.first == 'blog' %}
-						<li class="nav-link active">
-						{% else %}
-						<li class="nav-link">
-						{% endif %}
-						<a class="mx-1" href="/blog/">blog</a>
-						</li>
-						{% if page.categories.first == 'papers' %}
-						<li class="nav-link active">
-						{% else %}
-						<li class="nav-link">
-						{% endif %}
-						<a class="mx-1" href="/papers/">papers</a>
-						</li>
-						{% if page.categories.first == 'projects' %}
-						<li class="nav-link active">
-						{% else %}
-						<li class="nav-link">
-						{% endif %}
-						<a class="mx-1" href="/projects/">projects</a>
-						</li>
 						{% if page.categories.first == 'team' %}
 						<li class="nav-link active">
 						{% else %}
 						<li class="nav-link">
 						{% endif %}
-						<a class="mx-1" href="/team/">team</a>
+						<a class="mx-1" href="/team/">People</a>
+						{% if page.categories.first == 'papers' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/papers/">Publications</a>
+						</li>
+						{% if page.categories.first == 'blog' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/blog/">Blog</a>
+						</li>
+						{% if page.categories.first == 'resources' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="/resources/">Resources</a>
+						</li>
 						</li>
 					</ul>
 				</div>

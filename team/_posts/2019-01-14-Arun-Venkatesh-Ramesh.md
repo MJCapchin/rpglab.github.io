@@ -2,7 +2,7 @@
 layout: member
 title: Arun Venkatesh Ramesh
 position: PhD Student
-time: 2019.01 to present
+time: 2019.01 - present
 email: aramesh4@uh.edu
 image: /images/team/Arun_Venkatesh_Ramesh.jpg
 cv: 

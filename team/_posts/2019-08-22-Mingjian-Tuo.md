@@ -2,6 +2,7 @@
 layout: member
 title: Mingjian Tuo
 position: PhD Student
+time: 2019.08 - Present
 email: 
 image: /images/team/male.jpg
 cv: 

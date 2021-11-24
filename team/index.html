@@ -5,6 +5,46 @@ categories:
  - team
 ---
 
+<br>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Principal Investigator
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% for member in site.categories.team %}
+	{% if member.rolePI == true %}
+	{% if member.alumni != true %}
+    {% cycle 'add rows 0': '<div class="row">', '', '' %}
+		<div class="col-lg-4 memberbox">
+			<div class="media">
+  				
+  				<a class="float-left" href="{{ member.url }}">
+    				<img width=160 class="mr-3" src="{{ member.image }}">
+  				</a>
+  				
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+    				<p class="note">{{ member.time }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+        </div>
+    {% cycle 'close rows 0': '', '', '</div>' %}
+    {% endif %}
+    {% endif %}
+{% endfor %}
+{% cycle 'close rows 0': '', '</div>', '</div>' %}
+
+
+<br>
+
 <div class="row">
 	<div class="col-lg-12">
 		<div class="title">
@@ -16,6 +56,7 @@ categories:
 <div class="bigspacer"></div>
 
 {% for member in site.categories.team reversed %}
+	{% if member.rolePI != true %}
 	{% if member.alumni != true %}
     {% cycle 'add rows': '<div class="row">', '', '' %}
 		<div class="col-lg-4 memberbox">
@@ -34,11 +75,12 @@ categories:
         </div>
     {% cycle 'close rows': '', '', '</div>' %}
     {% endif %}
+    {% endif %}
 {% endfor %}
 {% cycle 'close rows': '', '</div>', '</div>' %}
 
 <br>
-<br>
+
 
 <div class="row">
 	<div class="col-lg-12">
@@ -51,13 +93,14 @@ categories:
 <div class="bigspacer"></div>
 
 {% for member in site.categories.team %}
+	{% if member.rolePI != true %}
 	{% if member.alumni == true %}
     {% cycle 'add rows 2': '<div class="row">', '', '' %}
 		<div class="col-lg-4 memberbox">
 			<div class="media">
   				
   				<a class="pull-left" href="{{ member.url }}">
-    				<img width=160 class="media-object" src="{{ member.image }}">
+    				<img width=160 class="mr-3" src="{{ member.image }}">
   				</a>
   				
  			 	<div class="media-body">
@@ -69,6 +112,7 @@ categories:
 			<div class="bigspacer"></div>
         </div>
     {% cycle 'close rows 2': '', '', '</div>' %}
+    {% endif %}
     {% endif %}
 {% endfor %}
 {% cycle 'close rows 2': '', '</div>', '</div>' %}
